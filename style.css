@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+header {
+    color: black;
+    font-weight: bold;
+    margin: 30px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 24px;
+}
+img{
+    width: 500px;
+    height: auto;
+}
+main{
+    display: flex;
+    width: 100%;
+    
+    padding: 10%;
+    
+    
+}
+.title{
+    color: #333333;
+    font-family: 'space mono', monospace;
+    font-weight: 700;
+    font-size: 64px;
+}
+.titlediv{
+    width: 600px;
+}
+.explication{
+    color: #4f4f4f;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: -0.035em;
+    line-height: 36px;
+
+}
+span{
+    text-decoration: underline;
+}
+.expdiv{
+    width: 400px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: #BDBDBD;
+    width: 100vw;
+}
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+button{
+    background: #333333;
+    /* format button styles*/
+    border: none;
+    color: white;
+    padding: 20px;
+}
+/* media */
+@media screen and (max-width: 1300px) {
+
+    .title{
+        font-size: 24px;
+    }
+    .explication{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .expdiv{
+        width: 20vh;
+    }
+    .titlediv{
+        width: 30vh;
+    }
+}
+@media screen and (max-width: 900px) {
+    .title{
+        font-size: 24px;
+    }
+    .explication{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .expdiv{
+        width: 40vh;
+    }
+    .titlediv{
+        width: 30vh;
+    }
+    img{
+        width: 30vw;
+        height: 30vw;
+    }
+    main{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 450px) {
+    .title{
+        font-size: 24px;
+    }
+    .explication{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .expdiv{
+        width: 30vh;
+    }
+    .titlediv{
+        width: 30vh;
+    }
+    img{
+        width: 30vw;
+        height: 30vw;
+    }
+    main{
+        flex-direction: column;
+        align-items: center;
+    }
+    footer{
+        position: relative;
+        padding: 0;
+        margin: 0;
+    }
+}
